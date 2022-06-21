@@ -13,41 +13,40 @@
 </head>
 
 <body>
-    <header style="padding: 0;">
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="hihi"><a href="trangchu.html"><img src="anh/logo2.png" alt="" height="50px"
-                                    width="135px" /></a></li>
-                        <li><a href="trangchu.html">Trang chủ</a></li>
-                        <li class="active"><a href="sanpham.html">Sản phẩm</a></li>
-                        <li><a href="daily.html">Đại lý pepsi</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" data-toggle="modal" data-target="#myModal">
-                                <span class="glyphicon glyphicon-log-in"></span>
-                                Đăng nhập
-                            </a></li>
-                    </ul>
-                </div>
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-        </nav>
-    </header>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="hihi"><a href="trangchu.html"><img src="anh/logo2.png" alt="" height="50px"
+                                width="135px" /></a></li>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+                    <li class="active"><a href="sanpham.html">Sản phẩm</a></li>
+                    <li><a href="daily.html">Đại lý pepsi</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">
+                            <span class="glyphicon glyphicon-log-in"></span>
+                            Đăng nhập
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Modal mở ra cho Login -->
     <!-- Modal -->
-    <nav id="myModal" class="modal fade" role="dialog">
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
 
-        <section class="modal-dialog">
-
-            <section class="modal-content">
+            <!-- Modal content-->
+            <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Đăng nhập/ Đăng ký</h4>
@@ -60,58 +59,24 @@
 
                     <div class="tab-content">
                         <div id="dangNhap" class="tab-pane fade in active">
-                            <form>
-                                <div class="form-group">
-                                    <div> <label>Tên tài khoản:</label> </div>
-                                    <input name="id" type="text" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <div> <label>Mật khẩu:</label></div>
-                                    <input name="PW" type="Password" class="form-control" />
-                                </div>
-                                <input name="re" type="checkbox" /> Lưu mật khẩu
-                                <hr>
-                                <button Type="submit">Đăng nhập</button>
-                            </form>
+                            <h3>HOME</h3>
+                            <p>Some content.</p>
                         </div>
                         <div id="dangKy" class="tab-pane fade">
-                            <form>
-                                <div class="form-group">
-                                    <div> <label>Tên tài khoản:</label> </div>
-                                    <input name="id" type="text" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <div> <label>Email:</label> </div>
-                                    <input name="id" type="text" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <div> <label>Ngày Sinh:</label> </div>
-                                    <input name="id" type="datetime" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <div> <label>Mật khẩu:</label></div>
-                                    <input name="PW" type="Password" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <div> <label>Nhâp lại mật khẩu:</label></div>
-                                    <input name="PW" type="Password" class="form-control" />
-                                </div>
-                                <input name="re" type="checkbox" /> Lưu mật khẩu
-                                <hr>
-                                <button Type="submit">Đăng ký</button>
-                            </form>
+                            <h3>Menu 1</h3>
+                            <p>Some content in menu 1.</p>
                         </div>
                     </div>
                 </div>
-            </section>
-        </section>
-    </nav>
+            </div>
+        </div>
+    </div>
     <article>
         <section class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="thumbnail text-center">
-                        <a href="1.html"><img src="anh/1.jpg" width="50%" alt=""></a>
+                        <img src="anh/1.jpg" width="50%" alt="">
                         <h3 class="text-info">Diet Pepsi</h3>
                         <h4 class="text-danger">15.000đ</h4>
                         <button class="btn btn-primary">Thêm vào giỏ</button>
@@ -119,7 +84,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="thumbnail text-center">
-                        <a href="2.html"><img src="anh/2.jpg" width="50%" alt=""></a>
+                        <img src="anh/2.jpg" width="50%" alt="">
                         <h3 class="text-info">Pepsi không đường</h3>
                         <h4 class="text-danger">15.000đ</h4>
                         <button class="btn btn-primary">Thêm vào giỏ</button>
@@ -127,7 +92,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="thumbnail text-center">
-                        <a href="3.html"><img src="anh/3.jpg" width="49%" alt=""></a>
+                        <img src="anh/3.jpg" width="49%" alt="">
                         <h3 class="text-info">Pepsi xoài</h3>
                         <h4 class="text-danger">15.000đ</h4>
                         <button class="btn btn-primary">Thêm vào giỏ</button>
@@ -135,7 +100,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="thumbnail text-center">
-                        <a href="4.html"><img src="anh/4.jpg" width="49%" alt=""></a>
+                        <img src="anh/4.jpg" width="49%" alt="">
                         <h3 class="text-info">Pepsi xoài không đường</h3>
                         <h4 class="text-danger">15.000đ</h4>
                         <button class="btn btn-primary">Thêm vào giỏ</button>
@@ -143,39 +108,39 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail text-center">
-                        <a href="5.html"><img src="anh/5.jpg" width="49%" alt=""></a>
-                        <h3 class="text-info">Pepsi cherry</h3>
-                        <h4 class="text-danger">15.000đ</h4>
-                        <button class="btn btn-primary">Thêm vào giỏ</button>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail text-center">
-                        <a href="6.html"><img src="anh/6.jpg" width="50%" alt=""></a>
-                        <h3 class="text-info">Pepsi</h3>
-                        <h4 class="text-danger">15.000đ</h4>
-                        <button class="btn btn-primary">Thêm vào giỏ</button>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail text-center">
-                        <a href="7.html"><img src="anh/7.jpg" width="50%" alt=""></a>
-                        <h3 class="text-info">Pepsi cola</h3>
-                        <h4 class="text-danger">15.000đ</h4>
-                        <button class="btn btn-primary">Thêm vào giỏ</button>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail text-center">
-                        <a href="8.html"><img src="anh/8.jpg" width="50%" alt=""></a>
-                        <h3 class="text-info">Pepsi không caffeine</h3>
-                        <h4 class="text-danger">15.000đ</h4>
-                        <button class="btn btn-primary">Thêm vào giỏ</button>
-                    </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="thumbnail text-center">
+                    <img src="anh/5.jpg" width="49%" alt="">
+                    <h3 class="text-info">Pepsi cherry</h3>
+                    <h4 class="text-danger">15.000đ</h4>
+                    <button class="btn btn-primary">Thêm vào giỏ</button>
                 </div>
             </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="thumbnail text-center">
+                    <img src="anh/6.jpg" width="50%" alt="">
+                    <h3 class="text-info">Pepsi</h3>
+                    <h4 class="text-danger">15.000đ</h4>
+                    <button class="btn btn-primary">Thêm vào giỏ</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="thumbnail text-center">
+                    <img src="anh/7.jpg" width="50%" alt="">
+                    <h3 class="text-info">Pepsi cola</h3>
+                    <h4 class="text-danger">15.000đ</h4>
+                    <button class="btn btn-primary">Thêm vào giỏ</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="thumbnail text-center">
+                    <img src="anh/8.jpg" width="50%" alt="">
+                    <h3 class="text-info">Pepsi không caffeine</h3>
+                    <h4 class="text-danger">15.000đ</h4>
+                    <button class="btn btn-primary">Thêm vào giỏ</button>
+                </div>
+            </div>
+        </div>
     </article>
     <footer class="container-fluid">
         <div class="container">
