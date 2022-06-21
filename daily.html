@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="anh/fpt.svg.ico" type="image/x-icon" />
+    <title>Trang đại lý</title>
+    <link rel="stylesheet" href="css/daily.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <header style="padding: 0;">
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="hihi"><a href="trangchu.html"><img src="anh/logo2.png" alt="" height="50px"
+                                    width="135px" /></a></li>
+                        <li><a href="trangchu.html">Trang chủ</a></li>
+                        <li><a href="sanpham.html">Sản phẩm</a></li>
+                        <li class="active"><a href="daily.html">Đại lý pepsi</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">
+                                <span class="glyphicon glyphicon-log-in"></span>
+                                Đăng nhập
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Modal mở ra cho Login -->
+    <!-- Modal -->
+    <nav id="myModal" class="modal fade" role="dialog">
+
+        <section class="modal-dialog">
+
+            <section class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Đăng nhập/ Đăng ký</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#dangNhap">Đăng nhập</a></li>
+                        <li><a data-toggle="tab" href="#dangKy">Đăng ký</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="dangNhap" class="tab-pane fade in active">
+                            <form>
+                                <div class="form-group">
+                                    <div> <label>Tên tài khoản:</label> </div>
+                                    <input name="id" type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <div> <label>Mật khẩu:</label></div>
+                                    <input name="PW" type="Password" class="form-control" />
+                                </div>
+                                <input name="re" type="checkbox" /> Lưu mật khẩu
+                                <hr>
+                                <button Type="submit">Đăng nhập</button>
+                            </form>
+                        </div>
+                        <div id="dangKy" class="tab-pane fade">
+                            <form>
+                                <div class="form-group">
+                                    <div> <label>Tên tài khoản:</label> </div>
+                                    <input name="id" type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <div> <label>Email:</label> </div>
+                                    <input name="id" type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <div> <label>Ngày Sinh:</label> </div>
+                                    <input name="id" type="datetime" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <div> <label>Mật khẩu:</label></div>
+                                    <input name="PW" type="Password" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <div> <label>Nhâp lại mật khẩu:</label></div>
+                                    <input name="PW" type="Password" class="form-control" />
+                                </div>
+                                <input name="re" type="checkbox" /> Lưu mật khẩu
+                                <hr>
+                                <button Type="submit">Đăng ký</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </nav>
+    <!-- kết thúc phần Login -->
+    <section>
+        <h1>
+            ĐẠI LÍ PEPSI TOÀN QUỐC
+        </h1>
+        <div class="mienbac">
+            <h3 data-aos="flip-up">Miền Bắc</h3>
+            <div class="link-location">
+                <div class="content-daili" data-aos="fade-up-left" style="text-align: right;">
+                    <h4>Đại Lí Miền Bắc</h4>
+                    <p>Số 88, đường Hữu Nghị, KCN VSIP- Phù Chẩn - Từ Sơn - Bắc Ninh</p>
+                    <p>Điện thoại: (84 241) 3 765 418 </p>
+                    <p>Fax: (84 241) 3 765 412</p>
+                </div>
+                <div class="container-daili">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59564.16231081931!2d105.9442711641548!3d21.082239975592874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a7ee093daef9%3A0xcebd9bd3d01a177b!2sSuntory%20Pepsico%20B%E1%BA%AFc%20Ninh!5e0!3m2!1svi!2s!4v1655178039604!5m2!1svi!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+        </div>
+        <div class="mientrung">
+            <h3 data-aos="flip-up">Miền Trung</h3>
+            <div class="link-location">
+                <div class="container-daili">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251656.74706391868!2d105.78671555034879!3d9.754488799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36b55ac590a3a137%3A0x5ff8f9aa8d1a4520!2zUUwxQSwgxJBp4buHbiBUaOG6r25nIELhuq9jLCDEkGnhu4duIELDoG4sIFF14bqjbmcgTmFtLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1655179974504!5m2!1svi!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="content-daili" data-aos="fade-up-left" style="text-align: left;">
+                    <h4>Đại Lí Miền Trung</h4>
+                    <p>Quốc lộ 1A, Điện Thắng Bắc, Điện B&#224;n, Quảng Nam</p>
+                    <p>Điện thoại: (84 510) 3 869 801 - 802 - 803 </p>
+                    <p>Fax: (84 510) 3 755 888 - (84 510) 3 755 885 (PA)</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="miennam">
+            <h3 data-aos="flip-up">Miền Nam</h3>
+            <div class="link-location">
+                <div class="content-daili" data-aos="fade-up-left" style="text-align: right;">
+                    <h4>Đại Lí Miền Nam</h4>
+                    <p>Đường L&#234; Văn Khương, phường Thới An, Q12, HCM</p>
+                    <p>Điện thoại: (84 8) 3 717 3427 - 8 - 9 </p>
+                    <p>Fax: (84 8) 3 717 3426</p>
+                </div>
+                <div class="container-daili">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.11720216128!2d106.64670651474987!3d10.8786894922522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529e1e81fac39%3A0x32d74b96fb2af866!2zTMOqIFbEg24gS2jGsMahbmcsIFRo4bubaSBBbiwgUXXhuq1uIDEyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1655180044349!5m2!1svi!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="anh/logo 1.png" alt="" id="logo-footer">
+                </div>
+                <div class="col-md-6">
+                    <h3>Liên hệ</h3>
+                    <p>
+                        Số phone:1-800-433-2652 <br><!-- comment -->
+                        Email:Pepsi@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Theo dõi</h3>
+                    <p>
+                        <a href="#"> <img src="anh/facebook.png" alt="" height="30" width="30"> </a>
+                        <a href="#"><img src="anh/google-plus.png" alt="" height="30" width="30"> </a>
+                        <a href="#"><img src="anh/ig.png" alt="" height="30" width="30"> </a>
+                        <a href="#"><img src="anh/pinterest.png" alt="" height="30" width="30"> </a>
+                        <a href="#"><img src="anh/twitter.png" alt="" height="30" width="30"> </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="container-fluid footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">2021 © Công ty Pepsi. Đã đăng ký Bản quyền.</div>
+                <div class="col-md-3">
+                    <a href="#" class="social">Quảng cáo</a>
+                    <a href="#" class="social">Liên hệ</a>
+                    <a href="#" class="social">Quảng cáo</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
